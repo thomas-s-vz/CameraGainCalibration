@@ -12,7 +12,7 @@
 %
 %OUTPUT: a results table that will sum up measured gain and read-out noise
 %for the given set gain.
-%%
+%% Written by Thomas S van Zanten, last update 15th March 2021
 close all
 clear all
 clc
