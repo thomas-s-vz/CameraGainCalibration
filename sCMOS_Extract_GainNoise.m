@@ -8,8 +8,14 @@
 %       time. The mean gray value should be part of the last 4 digits of
 %       the name. The first image should be the dark image (no signal).
 %
+%File naming in the folder should be:
+%'AVG_0000.tif' -> mean tiff file of the dark image series
+%'STD_0000.tif' -> standard deviation tiff file of the dark image series
+%'AVG_0180.tif' -> mean tiff file of the image series with an average ADU of 180
+%'STD_0180.tif' -> standard deviation tiff file of the image series with an average ADU of 180
+%
 %OUTPUT: 1)a gain image (x10000), 2)a dark image and 3)a readout noise image (x1000).
-%%
+%% Written by Thomas S van Zanten, last update 15th March 2021
 close all
 clear all
 clc
